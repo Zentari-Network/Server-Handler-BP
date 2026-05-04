@@ -2,6 +2,8 @@
 
 A Minecraft Bedrock Edition behavior pack that reports server TPS and player count to the Server Handler API at a regular interval.
 
+> ⚠️ **Warning:** The world this pack is applied to **must** have beta experiments enabled, as the pack depends on beta APIs.
+
 ## Requirements
 
 - [Bun](https://bun.sh) (used for installing packages and compiling)
