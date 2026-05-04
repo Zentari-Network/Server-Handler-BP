@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Zentari Network | Server Handler Uploader BP",
+    "description": "Use this BP on any server running under our tool to upload it's TPS and player count to the API.",
+    "min_engine_version": [1, 21, 130],
+    "uuid": "3f7677b0-47ef-11f1-826f-bc2411bf3ad4",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "46168945-47ef-11f1-b4d6-bc2411bf3ad4",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "49f899b7-47ef-11f1-b74c-bc2411bf3ad4",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "beta" },
+    { "module_name": "@minecraft/server-net", "version": "2.6" }
+  ]
+}
