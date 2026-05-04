@@ -15,7 +15,7 @@ Navigate to your Minecraft server's `development_behavior_packs` folder and clon
 
 ```bash
 cd /path/to/server/development_behavior_packs
-git clone https://github.com/Zentari-Network/Server-Handler.git ServerHandlerUploaderBP
+git clone https://github.com/Zentari-Network/Server-Handler-BP.git ServerHandlerUploaderBP
 ```
 
 ### 2. Install packages
