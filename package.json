@@ -10,7 +10,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "compile": "bun run clean && bunx esbuild src/main.ts --platform=node --target=node18 --bundle --minify --format=esm --external:@minecraft/* --outfile=scripts/main.js",
+    "compile": "bun run clean && bunx esbuild src/main.ts --platform=node --target=node18 --bundle --minify --format=esm --external:@minecraft/* --outfile=scripts/main.js && rm -rf node_modules",
     "build": "bun run compile && mkdir output; cp manifest.json output && cp -r scripts output && zip -9 -r output.zip output && rm -rf output",
     "watch": "bun run clean && bunx tsc --watch",
     "clean": "rm -rf scripts output*",
